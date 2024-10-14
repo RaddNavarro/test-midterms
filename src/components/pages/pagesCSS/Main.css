@@ -1,0 +1,39 @@
+.table-wrapper {
+    width: 100%;
+    text-align: left;
+    margin-top: 3rem;
+}
+.table {
+    /* display: block; */
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0 10px 10px #ccc;
+    border-radius: 30px;
+    white-space: nowrap;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.table .tbl-head {
+    background-color: #ff0000;
+    color: #000000;
+}
+
+.table th, .table td {
+    padding: 1rem;
+    
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+h2 {
+    margin-top: 5rem;
+    text-align: center;
+}
